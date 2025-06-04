@@ -1,0 +1,22 @@
+.table-pc {
+        display: table;
+        min-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .table-mv {
+        display: none;
+    }
+
+    @media (min-width: 250px) and (max-width: 768px) {
+        .table-pc {
+            display: none;
+			
+        }
+
+        .table-mv {
+            display: table;
+            min-width: 100% !important;
+            width: 100% !important;
+        }
+    }
